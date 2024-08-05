@@ -1,6 +1,8 @@
 #!/bin/bash
 
-CUR_DIR=$(pwd)
+CUR_DIR=$(dirname "$0")
+
+cd $CUR_DIR
 
 echo "Run at $CUR_DIR"
 
