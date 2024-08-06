@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sleep 60
+
 CUR_DIR=$(dirname "$0")
 
 cd $CUR_DIR
